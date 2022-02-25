@@ -1,0 +1,79 @@
+/* download "lato" font */
+@font-face {
+    font-family: "Lato";
+    src: url('698242188-Lato-Bla.eot');
+    src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+    url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+    url('698242188-Lato-Bla.woff') format('woff'),
+    url('698242188-Lato-Bla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+body {
+    font-family: 'Lato', sans-serif;
+  }
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 30px;
+  }
+  /* For the aesthetics */
+.nav-button {
+    color: grey;
+  }
+.logo {
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 9px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.lauch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:200px;
+    margin-bottom:200px;
+}
+.headline {
+    display:flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-top: 10px
+}
+.description {
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top:25px;
+}
+.scroll {
+    display:flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.portfolio {
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+.proj {
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 40px;
+}
+.proj-name {
+    display:flex;
+    justify-content: center;
+}
